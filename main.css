@@ -1,4 +1,4 @@
-@import url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.304/');
+@import url('https://fonts.cdnfonts.com/css/menlo');
 
 :root {
   --background: hsl(210, 14.754%, 23.922%);
@@ -69,10 +69,9 @@
   --sn-stylekit-passive-color-4: #0e0c11;
   --sn-stylekit-passive-color-4-opacity-variant: #0000003d;
   --sn-stylekit-passive-color-3: #3d4367;
-  --sn-stylekit-passive-color-3: hsl(300, 29.697%, 18.75%);
   --sn-stylekit-passive-color-5: #080507;
 
   --navigation-item-selected-background-color:var(--sn-stylekit-secondary-contrast-background-color);
 
-  --sn-stylekit-monospace-font: 'JetBrains Mono', monospace;
+  --sn-stylekit-monospace-font: 'Menlo', monospace;
 }
