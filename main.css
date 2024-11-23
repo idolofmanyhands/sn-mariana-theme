@@ -16,10 +16,12 @@
   --bar-color: rgb(32, 34, 49);
   --darker-background: rgb(25, 26, 33);
   --darker-background-border: rgb(32, 34, 49);
+  --popover-background-color: var(--secondary-background);
+  --items-column-items-background-color:hsl(210, 14.754%, 18.75%);
 
-  --sn-stylekit-accessory-tint-color-1: var(--purple);
+  --sn-stylekit-accessory-tint-color-1: var(--orange);
   --sn-stylekit-accessory-tint-color-2: var(--pink);
-  --sn-stylekit-accessory-tint-color-3: var(--orange);
+  --sn-stylekit-accessory-tint-color-3: var(--purple);
   --sn-stylekit-accessory-tint-color-4: var(--cyan);
   --sn-stylekit-accessory-tint-color-5: var(--green);
   --sn-stylekit-accessory-tint-color-6: var(--yellow);
@@ -73,17 +75,3 @@
 
   --sn-stylekit-monospace-font: 'JetBrains Mono', monospace;
 }
-
-
-/*
-#navigation .tag>.tag-info>.title, 
-#navigation .root-drop>.tag-info>.title {
-  color: var(--secondary-color-text);
-  -webkit-text-fill-color: var(--secondary-color-text);
-}
-
-#navigation .tag.selected>.tag-info>.title, 
-#navigation .tag:hover:not(.selected)>.tag-info>.title {
-  color: var(--primary-color-text);
-  -webkit-text-fill-color: var(--primary-color-text);
-}*/
