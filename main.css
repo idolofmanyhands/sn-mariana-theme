@@ -3,8 +3,8 @@
 :root {
   --background: hsl(210, 14.754%, 23.922%);
   --secondary-background: hsl(210, 14.754%, 18.75%);
-  --current-line: var(--foreground) l(95%) a(7%);
-  --foreground: hsl(0, 0%, 100%) a(86%);
+  --current-line: color(var(--foreground) l(95%) a(7%));
+  --foreground: color(hsl(0, 0%, 100%) a(86%));
   --comment: hsl(210, 50%, 60%);
   --red: hsl(357.73, 79.518%, 67.451%);
   --orange: hsl(33.377, 93.789%, 68.431%);
@@ -74,13 +74,8 @@
   --sn-stylekit-monospace-font: 'JetBrains Mono', monospace;
 }
 
-.sn-component .sk-panel .sk-panel-footer .left {
-  color: var(--foreground);
-}
 
-#plus-editor label kbd {
-  background-color: var(--sn-stylekit-background-color);
-}
+/*
 #navigation .tag>.tag-info>.title, 
 #navigation .root-drop>.tag-info>.title {
   color: var(--secondary-color-text);
@@ -91,4 +86,4 @@
 #navigation .tag:hover:not(.selected)>.tag-info>.title {
   color: var(--primary-color-text);
   -webkit-text-fill-color: var(--primary-color-text);
-}
+}*/
