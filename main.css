@@ -2,7 +2,7 @@
 
 :root {
   --background: hsl(210, 14.754%, 23.922%);
-  --secondary-background: hsl(210, 14.754%, 18.75%);
+  --secondary-background: hsl(210, 14.754%, 12.5%);
   --foreground: #f5f5f5;
   --current-line: hsl(210, 14.754%, 31.25%);
   --comment: hsl(210, 50%, 60%);
@@ -18,7 +18,7 @@
   --darker-background-border: rgb(32, 34, 49);
   --popover-background-color: var(--secondary-background);
   --items-column-items-background-color:hsl(210, 14.754%, 18.75%);
-
+  --item-cell-selected-background-color:hsl(210, 14.754%, 12.5%);;
   --sn-stylekit-accessory-tint-color-1: var(--orange);
   --sn-stylekit-accessory-tint-color-2: var(--pink);
   --sn-stylekit-accessory-tint-color-3: var(--purple);
@@ -69,6 +69,7 @@
   --sn-stylekit-passive-color-4: #0e0c11;
   --sn-stylekit-passive-color-4-opacity-variant: #0000003d;
   --sn-stylekit-passive-color-3: #3d4367;
+  --sn-stylekit-passive-color-3: hsl(300, 29.697%, 18.75%);
   --sn-stylekit-passive-color-5: #080507;
 
   --navigation-item-selected-background-color:var(--sn-stylekit-secondary-contrast-background-color);
